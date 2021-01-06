@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Serif SC", serif;
+  color: #fff;
+  background-color: #000000;
+}
+
+body #myNavbar {
+  border-bottom: 1px solid #222222;
+}
+
+.navbar-item .nav-link {
+  font-size: 18px;
+}
+
+h1 a {
+  color: #ffffff;
+}
+
+h1 a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+ul li a {
+  color: #ffffff;
+}
+
+#togglerDiv {
+  border-bottom: 1px solid #222222;
+  margin-bottom: 5px;
+}
+
+#togglerDiv .toggler1 {
+  color: white;
+  margin: 10px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#togglerDiv a:active {
+  font-size: 17px;
+}
+
+.container #carousel-box1 {
+  border-bottom: 1px solid #222222;
+  display: none;
+}
+
+.toggleClass {
+  display: inline;
+  justify-content: space-between;
+}
+
+.toggleClass img {
+  height: auto;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+main {
+  margin-top: 10px;
+  min-height: 80vh;
+}
+
+.article {
+  background-color: black;
+  display: flex;
+  height: 450px;
+  width: 100%;
+  flex-direction: column;
+  border: 1px solid #222222;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.image {
+  background-size: cover;
+}
+
+.image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 10px 10px 0 0;
+}
+
+.artContent {
+  padding: 10px;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h5 a {
+  color: inherit;
+  font-size: 22px;
+}
+
+h5 a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+.artShortDes {
+  color: #888888;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  overflow: hidden;
+}
+
+.date {
+  margin: 0;
+  color: #dadada;
+  font-size: 14px;
+}
+
+footer {
+  border-top: 1px solid #222222;
+  height: 70px;
+  margin-top: 20px;
+}
+
+footer .container p {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+    overflow: hidden;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+
+  .article {
+    background-color: black;
+    box-shadow: 0 14px 28px rgba(31, 31, 31, 0.25);
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    margin: 10px 0;
+    border: 1px solid #222222;
+    border-radius: 0px;
+  }
+
+  .image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0px;
+  }
+}
